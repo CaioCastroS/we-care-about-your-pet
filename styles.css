@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@900,100;1,900&family=Poppins:wght@500;500&family=Roboto+Condensed:wght@300;400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+a {
+    margin-top: 30px;
+    color: #989D9C;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+button {
+    width: 130px;
+    height: 41px;
+    margin-top: 25px;
+    border-radius: 50px;
+    color: #fff;
+    background: #665ae1;
+    border: none;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+section {
+    display: flex;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin: 100px 0 0 70px;
+}
+
+div {
+    margin-top: 110px;
+    width: 36%;
+    margin-left: 80px;
+    text-align: start;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 121px;
+    font-weight: 900;
+    color: #515151;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight:200;
+    line-height: 70px;
+    color: #515151;
+    letter-spacing: 4px;
+}
+
+p {
+   font-size: 24px;
+   line-height: 29px;
+   color: #848484;
+   font-weight: 400;
+   text-align: start; 
+   margin-top: 30px;
+   opacity: 0.6;
+}
+
+.Ex {
+    width: 219px;
+    height: 64px;
+    border-radius: 50px;
+    color: #000;
+    background: #adff00;
+    border: none;
+    margin-top: 50px;
+    font-weight: 730;
+    font-size: 22px;
+}
+
+@media (max-width:1090px) {
+    body{
+        width: 100%;
+        height: auto;
+    
+    }
+
+    header {
+        display: none;
+    }
+
+    .Ei {
+        display: none;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        position: absolute;
+        margin: 190px auto;
+
+    }
+
+    p {
+        display: none;
+    }
+
+    div {
+        margin-top: 700px;
+        width: 100vw;
+    }
+
+    h1 {
+        font-size: 70px;
+        margin-top: 20px;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .Ex {
+        display: block;
+        margin: 30px auto;
+        width: 400px;
+        height: 80px;
+        font-size: 40px;
+    }
+}
